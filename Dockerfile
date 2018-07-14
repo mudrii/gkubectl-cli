@@ -5,7 +5,6 @@ FROM alpine:latest
 
 ENV CLOUD_SDK_VERSION 202.0.0
 ENV KUBE_VERSION v1.11.0
-ENV HELM_VERSION v2.9.1
 ENV PATH /google-cloud-sdk/bin:$PATH
 
 RUN apk --no-cache update && \
