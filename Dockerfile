@@ -3,8 +3,8 @@ FROM alpine:latest
 #https://github.com/google-cloud-sdk/google-cloud-sdk/releases
 #https://github.com/kubernetes/kubernetes/releases
 
-ENV CLOUD_SDK_VERSION 202.0.0
-ENV KUBE_VERSION v1.11.0
+ENV CLOUD_SDK_VERSION 210.0.0
+ENV KUBE_VERSION v1.11.2
 ENV PATH /google-cloud-sdk/bin:$PATH
 
 RUN apk --no-cache update && \
